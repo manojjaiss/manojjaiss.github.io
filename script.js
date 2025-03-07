@@ -206,4 +206,14 @@ function close () {
 }
 
 close();
+document.addEventListener("DOMContentLoaded", function () {
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navMenu = document.querySelector(".navbar ul");
+    
+    if (menuToggle && navMenu) {
+        menuToggle.addEventListener("click", function () {
+            navMenu.style.display = (navMenu.style.display === "flex") ? "none" : "flex";
+        });
+    }
+});
 
