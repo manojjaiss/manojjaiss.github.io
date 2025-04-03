@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 50px 0;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .service-box {
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+            text-align: left;
+            box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+        }
+        h1, h2 {
+            color: white;
+        }
+        .contact-form {
+            background: #444;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #007BFF;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        <p>I am a passionate software developer specializing in web development, Python, and Data Structures & Algorithms (DSA). I offer services to build scalable, efficient, and modern applications.</p>
+        
+        <h2>My Services</h2>
+        <div class="services">
+            <div class="service-box">
+                <h3>Web Development</h3>
+                <p>I build responsive and high-performance websites using modern technologies.</p>
+            </div>
+            <div class="service-box">
+                <h3>Python Development</h3>
+                <p>Expertise in Python for web development, data science, AI, and automation.</p>
+            </div>
+            <div class="service-box">
+                <h3>Data Structures & Algorithms</h3>
+                <p>Enhance your coding skills with optimized algorithms and efficient data structures.</p>
+            </div>
+        </div>
+        
+        <h2>Contact Me</h2>
+        <div class="contact-form">
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
